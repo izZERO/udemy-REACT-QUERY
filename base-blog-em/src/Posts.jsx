@@ -3,7 +3,7 @@ import { useQuery, useQueryClient, useMutation } from "@tanstack/react-query"
 
 import { fetchPosts, deletePost, updatePost } from "./api"
 import { PostDetail } from "./PostDetail"
-const maxPostPage = 10
+const maxPostPage = 12
 
 export function Posts() {
   const [currentPage, setCurrentPage] = useState(1)
